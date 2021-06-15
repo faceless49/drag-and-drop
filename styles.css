@@ -64,12 +64,15 @@ body {
 }
 
 .hold {
-  border: 5px solid #eee
+  background: #84cbee
 }
+
 
 .hide {
   display: none;
 }
 .hovered {
-  border-top: 2px solid #8ed7ed;
+  border-radius: 20px;
+  background-color: #b5edf5;
+  transition: background-color 0.5s;
 }
